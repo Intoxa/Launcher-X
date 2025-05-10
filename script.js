@@ -24,4 +24,4 @@ const observer = new IntersectionObserver((entries) => {
 document.querySelectorAll('.feature-card, .cta-button, .contact-section').forEach(el => {
   el.classList.add('fade-in');
   observer.observe(el);
-})
+});
